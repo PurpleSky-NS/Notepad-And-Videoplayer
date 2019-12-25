@@ -54,9 +54,10 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(418, 162);
+            this.textBox1.Size = new System.Drawing.Size(418, 364);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "    这是一个模仿Notepad的记事本，应该有80%相似吧，另外它可以\"播放视频\"。\r\n没啥好说的，就写这么多吧。\r\ngithub地址：\r\n";
+            this.textBox1.Text = "    这是一个模仿Notepad的记事本，应该有80%相似吧，另外它可以\"播放视频\"。\r\n没啥好说的，就写这么多吧。\r\ngithub地址：https://git" +
+    "hub.com/PurpleSky-NS/Notepad-And-Videoplayer\r\n";
             // 
             // AboutForm
             // 
