@@ -170,6 +170,8 @@ namespace MyNotepad
                 {
                     case DialogResult.Yes:
                         return SaveToNewFile();
+                    case DialogResult.No:
+                        return true;
                     case DialogResult.Cancel:
                         return false;
                 }
@@ -356,6 +358,7 @@ namespace MyNotepad
             {
                 editorPad.SelectionFont = fontDialog.Font;
                 IsTextTypeRich = true;
+                IsTextChanged = editorPad.SelectionLength != 0;
             }
         }
 
@@ -365,6 +368,7 @@ namespace MyNotepad
             {
                 editorPad.SelectionColor = colorDialog.Color;
                 IsTextTypeRich = true;
+                IsTextChanged = editorPad.SelectionLength != 0;
             }
         }
 
