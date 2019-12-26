@@ -143,7 +143,6 @@ namespace MyNotepad
             {
                 IsInit = true;
             });
-            CreateTempDirectory();
             bufferTimer = new System.Threading.Timer(BufferVideo, null, Timeout.Infinite, Timeout.Infinite);
             loadTimer = new System.Threading.Timer(LoadBuffer, null, Timeout.Infinite, Timeout.Infinite);
             playTimer = new System.Threading.Timer(PlayPeace, null, Timeout.Infinite, Timeout.Infinite);
